@@ -1,5 +1,5 @@
-ImageSet_xml
-runs
-HelperScripts/__pycache__
-yolov8n.pt
+ImageSet/XMLFormat
+Scripts/TrainingScripts/runs
+Scripts/HelperScripts/__pycache__
+Scripts/TrainingScripts/yolov8n.pt
 RoughNotebook.ipynb
