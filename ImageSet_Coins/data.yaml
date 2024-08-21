@@ -1,0 +1,13 @@
+train: C:/Users/tjmaz/OneDrive/Desktop/GitHub/CoinCounter/ImageSet/train/images
+val: C:/Users/tjmaz/OneDrive/Desktop/GitHub/CoinCounter/ImageSet/valid/images
+test: C:/Users/tjmaz/OneDrive/Desktop/GitHub/CoinCounter/ImageSet/test/images
+
+nc: 5
+names: ['dime', 'loonie', 'nickel', 'quarter', 'toonie']
+
+roboflow:
+  workspace: coincounter-gkud0
+  project: coinxmltoyolo
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/coincounter-gkud0/coinxmltoyolo/dataset/1
