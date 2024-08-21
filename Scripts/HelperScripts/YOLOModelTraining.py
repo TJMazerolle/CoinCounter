@@ -10,12 +10,12 @@ def check_GPU():
     else:
         print("GPU is not available, using CPU instead.")
 
-def train_YOLO_model(training_epochs = 1000, yolo_model = "yolov8n.yaml", training_data_yaml = "./ImageSet/data.yaml"):
+def train_YOLO_model(training_data_yaml, training_epochs = 1000, yolo_model = "yolov8n.yaml"):
     model = YOLO(yolo_model)  # build a new model from scratch
     model.train(data = training_data_yaml, epochs = training_epochs)
     return model
 
-def move_created_model(new_filename, destination_directory = "./Models"):
+def move_created_model(new_filename, destination_directory = "../../Models"):
     train_directory = os.listdir("./runs/detect")
     current_train_folder = train_directory[len(train_directory) - 1]
     model_location = f"./runs/detect/{current_train_folder}/weights/last.pt"

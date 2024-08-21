@@ -1,6 +1,6 @@
-train: C:/Users/tjmaz/OneDrive/Desktop/GitHub/DiceCounter/ImageSet/train/images
-val: C:/Users/tjmaz/OneDrive/Desktop/GitHub/DiceCounter/ImageSet/valid/images
-test: C:/Users/tjmaz/OneDrive/Desktop/GitHub/DiceCounter/ImageSet/test/images
+train: C:/Users/tjmaz/OneDrive/Desktop/GitHub/ObjectDetectionWithYolo/ImageSets/YAMLFormat/Dice/train/images
+val: C:/Users/tjmaz/OneDrive/Desktop/GitHub/ObjectDetectionWithYolo/ImageSets/YAMLFormat/Dice/valid/images
+test: C:/Users/tjmaz/OneDrive/Desktop/GitHub/ObjectDetectionWithYolo/ImageSets/YAMLFormat/Dice/test/images
 
 nc: 6
 names: ['five', 'four', 'one', 'six', 'three', 'two']

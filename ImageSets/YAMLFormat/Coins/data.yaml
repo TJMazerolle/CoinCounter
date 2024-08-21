@@ -1,6 +1,6 @@
-train: C:/Users/tjmaz/OneDrive/Desktop/GitHub/CoinCounter/ImageSet/train/images
-val: C:/Users/tjmaz/OneDrive/Desktop/GitHub/CoinCounter/ImageSet/valid/images
-test: C:/Users/tjmaz/OneDrive/Desktop/GitHub/CoinCounter/ImageSet/test/images
+train: C:/Users/tjmaz/OneDrive/Desktop/GitHub/ObjectDetectionWithYolo/ImageSets/YAMLFormat/Coins/train/images
+val: C:/Users/tjmaz/OneDrive/Desktop/GitHub/ObjectDetectionWithYolo/ImageSets/YAMLFormat/Coins/valid/images
+test: C:/Users/tjmaz/OneDrive/Desktop/GitHub/ObjectDetectionWithYolo/ImageSets/YAMLFormat/Coins/test/images
 
 nc: 5
 names: ['dime', 'loonie', 'nickel', 'quarter', 'toonie']
